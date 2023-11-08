@@ -9,7 +9,7 @@ export default function Experience()
 
         <Environment preset="city" />
 
-        <color attach="background" args={['#241a1a']} />
+        <color attach="background" args={['#05233b']} />
         
         <PresentationControls 
             global
@@ -24,7 +24,7 @@ export default function Experience()
                     width={2.5}
                     height={.65}
                     intensity={65}
-                    color={'#ff6900'}
+                    color={'#0000cc'}
                     rotation={[0.1, Math.PI, 0]}
                     position={[0, 0.55, -1.15]}
                 />
@@ -46,11 +46,12 @@ export default function Experience()
                 </primitive>
                 <Text
                     font="./bangers-v20-latin-regular.woff"
-                    fontSize={1}
+                    fontSize={0.8}
                     position={[2, 0.75, 0.75]}
                     rotation-y={ -1.25}
                     maxWidth={ 2 }
                     textAlign='center'
+                    color='#00446f'
                 >
                     FABIAN TARANTO
                 </Text>
